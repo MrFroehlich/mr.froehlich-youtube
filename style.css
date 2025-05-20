@@ -329,3 +329,32 @@ body {
   padding: 2rem;
   border-radius: 10px;
 }
+
+_____________________________________________________________________
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.text-column {
+  flex: 2;
+  min-width: 300px;
+}
+
+.video-column {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
